@@ -31,16 +31,4 @@ public class someReversedWords {
 
         return finalBuilder.toString();
     }
-
-    /******SOMEONE ELSE'S SOLUTION*****/
-//    public String spinWords(String sentence) {
-//        String[] words = sentence.split(" ");
-//        for (int i=0; i<words.length; i++) {
-//            if (words[i].length() >= 5) {
-//                words[i] = new StringBuilder(words[i]).reverse().toString();
-//            }
-//        }
-    /***The String.join() method concatenates the given elements with the delimiter and returns the concatenated string.***/
-//        return String.join(" ",words);
-//    }
 }
