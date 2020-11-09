@@ -46,30 +46,4 @@ public class BraceChecker {
         return myStack.isEmpty();
     }
 
-                        /**OTHER'S SOLUTIONS*/
-
-//                        public boolean isValid(String braces) {
-//                            int lengthOfBraces = braces.length();
-//                            for(int i = 0; i < lengthOfBraces; i++){
-//                                braces = braces.replace("{}", "").replace("[]", "").replace("()", "");
-//                            }
-//                            return braces.isEmpty();
-//                        }
-
-                    /****************************************************************/
-
-//                        public boolean isValid(String braces) {
-//                            String b = braces;
-//                            System.out.println(braces);
-//                            for(int i=0;i<braces.length()/2;i++)
-//                            {
-//                                b = b.replaceAll("\\(\\)", "");
-//                                b = b.replaceAll("\\[\\]", "");
-//                                b = b.replaceAll("\\{\\}", "");
-//                                if(b.length() == 0)
-//                                    return true;
-//                            }
-//                            return false;
-//                        }
-
 }
