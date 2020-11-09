@@ -13,8 +13,6 @@ public class waveAString {
         for(int i = 0;i < check.length;i++){
             System.out.println(check[i] + " ");
         }
-        char c = '1' + '3';
-        System.out.println(c);
     }
 
     public static String[] wave(String str) {
